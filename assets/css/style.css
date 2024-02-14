@@ -1,0 +1,191 @@
+:root{
+  --bg-header: #2C3E50;
+  --container-small: #1ABC9C;
+  --hidden-filter: rgba(28, 187, 155, 0.6);
+  --bg-footer-top: #3A546D;
+  --bg-footer-bot: #2C3E50;
+  --icon-grey: #888888;
+}
+
+/* [class^="container"],
+.debug{
+  background-color: rgba(173, 216, 230, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+} */
+
+img{
+  width: 100%;
+}
+
+h2{
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+header{
+  background-color: var(--bg-header);
+  height: 90px;
+}
+
+header .container-md{
+  height: 100%;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+.hamburger{
+  color: #888888;
+}
+
+main.marg{
+  margin-top: 90px;
+}
+
+main .start-boot,
+main .about{
+  background-color: var(--container-small);
+  width: 100%;
+}
+main .container-small{
+  margin: 0 auto;
+  width: 75%;
+}
+
+.photo{
+  height: 18rem;
+}
+
+/* Hover card */
+.filter-hidden{
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-color: var(--hidden-filter);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.filter-hidden i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.port-card{
+  position: relative;
+  cursor: pointer;
+}
+
+.col:hover .filter-hidden{
+  display: block;
+}
+/* /Hover card */
+
+.btn-send{
+  background-color: var(--container-small);
+}
+
+footer .top-footer{
+  background-color: var(--bg-footer-top);
+}
+
+footer .bot-footer{
+  background-color: var(--bg-footer-bot);
+}
+
+.ico{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 44px;
+  font-size: 1.15rem;
+}
+
+
+.credit{
+  color: var(--container-small);
+}
+
+.ms_star:before,
+.ms_star:after {
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius:2px;
+  background-color: white;
+  margin: 0 20px;
+}
+
+.portfolio .ms_star:before,
+.portfolio .ms_star:after,
+.contact .ms_star:before,
+.contact .ms_star:after{
+  background-color: #2C3E50;
+}
+
+.portfolio .ms_star:before,
+.portfolio .ms_star:after{
+  width: 13%;
+}
+
+.ms_star i {
+  font-size: 30px;
+  vertical-align: middle;
+  margin: 20px 0;
+}
+
+.text-form{
+  color: #2C3E50;
+}
+
+/* FORM */
+.my_form input,
+.my_form textarea {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+
+.my_form input:focus,
+.my_form textarea:focus {
+  box-shadow: none;
+}
+
+.my_form input::placeholder,
+.my_form textarea::placeholder {
+  color: #2b3d4f;
+  
+} 
+
+.my_button {
+  background-color: #1abc9c;
+  border: none;
+}
+
+.my_button:hover {
+  background-color: #137964;
+}
+/* /FORM */
+
+
+/* *****************************************************************************************
+                                      TRANSITION
+***************************************************************************************** */
+
